@@ -1,0 +1,194 @@
+body {
+  padding-left: 60px;
+  padding-right: 60px;
+  margin: 0;
+  background-color: #fff; }
+
+header {
+  position: sticky;
+  top: 0; }
+  header h1 {
+    font-family: "geometric-bold"; }
+
+main {
+  text-align: center; }
+  main h1 {
+    margin: 20px;
+    font-size: 8rem;
+    font-family: 'Dela Gothic One', cursive;
+    color: #6c757d; }
+
+#fondo {
+  background-image: url(../imagenes/fondopiojos.jpg);
+  backface-visibility: hidden; }
+
+.caja a {
+  color: black;
+  text-decoration: none;
+  font-size: 40px;
+  margin: 0 5%;
+  padding-top: 10%; }
+
+.grid {
+  padding-left: 260px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas: "albun27 naranja" "similar placer"; }
+
+.albun27 {
+  grid-area: albun27; }
+
+.naranja {
+  grid-area: naranja; }
+
+.similar {
+  grid-area: similar; }
+
+.placer {
+  grid-area: placer; }
+
+.left {
+  float: left; }
+
+.biografia::first-letter {
+  font-size: 8rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #6c757d; }
+
+.biografia {
+  margin: 10%;
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #6c757d; }
+
+@media screen and (max-width: 1750px) {
+  .grid {
+    padding-left: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "albun27 naranja" "similar placer"; }
+  .caja a {
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    margin: 0 5%;
+    padding-top: 10%; }
+  main {
+    text-align: center; }
+    main h1 {
+      margin: 20px;
+      font-size: 2rem;
+      font-family: 'Dela Gothic One', cursive;
+      color: #6c757d; }
+  .biografia::first-letter {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d; }
+  .biografia {
+    margin: 10%;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d; }
+  .left {
+    float: left;
+    width: 18%; } }
+
+@media screen and (max-width: 1750px) and (max-width: 800px) {
+  body {
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0; }
+  main {
+    text-align: center; }
+    main h1 {
+      margin: 20px;
+      font-size: 2rem;
+      font-family: 'Dela Gothic One', cursive;
+      color: #6c757d; }
+  .biografia::first-letter {
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d; }
+  .biografia {
+    margin: 10%;
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #6c757d; }
+  .left {
+    float: none;
+    width: 100%; } }
+
+footer {
+  Border-top: 2px solid #6c757d;
+  background-color: #fbfbff; }
+  footer h2 {
+    Border-top: 2px solid #6c757d;
+    text-align: center;
+    font-size: 20px; }
+  footer section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas: "redes eventos"; }
+
+.redes {
+  grid-area: redes;
+  margin-left: 140px; }
+  .redes a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+    .redes a:hover {
+      color: gray; }
+
+.eventos {
+  grid-area: eventos;
+  margin-right: 140px; }
+  .eventos a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    font-size: 20px; }
+    .eventos a:hover {
+      color: gray; }
+
+@media screen and (max-width: 700px) {
+  .eventos {
+    grid-area: eventos;
+    margin-right: 40px; }
+  .redes {
+    grid-area: redes;
+    margin-left: 40px; } }
+
+@media screen and (max-width: 400px) {
+  footer {
+    Border-top: 2px solid #6c757d;
+    background-color: #f5f3f4; }
+    footer h2 {
+      Border-top: 2px solid #6c757d;
+      text-align: center;
+      font-size: 10px; }
+    footer .redes {
+      grid-area: redes;
+      margin-left: 10px; }
+      footer .redes a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+        font-size: 20px; }
+        footer .redes a:hover {
+          color: gray; }
+    footer .eventos {
+      grid-area: eventos;
+      margin-right: 10px; }
+      footer .eventos a {
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: black;
+        font-size: 20px; }
+        footer .eventos a:hover {
+          color: gray; } }
