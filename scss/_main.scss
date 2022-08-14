@@ -1,3 +1,8 @@
+//mixin 
+@mixin letra {
+    font-family:'Times New Roman', Times, serif;
+}
+
 main{
     text-align: center;
 
@@ -59,13 +64,13 @@ main{
 
 .biografia::first-letter{
     font-size: 8rem;    
-    font-family: 'Times New Roman', Times, serif;
+    @include letra;
     color: #6c757d;
 }
 .biografia{
     margin: 10%;
     font-size: 2rem;    
-    font-family: 'Times New Roman', Times, serif;
+    @include letra;
     color: #6c757d;
 }
 
