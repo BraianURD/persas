@@ -140,7 +140,7 @@ footer {
     color: black;
     font-size: 20px; }
     .redes a:hover {
-      color: gray; }
+      color: #6c757d; }
 
 .eventos {
   grid-area: eventos;
@@ -152,7 +152,7 @@ footer {
     color: black;
     font-size: 20px; }
     .eventos a:hover {
-      color: gray; }
+      color: #6c757d; }
 
 @media screen and (max-width: 700px) {
   .eventos {
@@ -180,7 +180,7 @@ footer {
         color: black;
         font-size: 20px; }
         footer .redes a:hover {
-          color: gray; }
+          color: #6c757d; }
     footer .eventos {
       grid-area: eventos;
       margin-right: 10px; }
@@ -191,4 +191,4 @@ footer {
         color: black;
         font-size: 20px; }
         footer .eventos a:hover {
-          color: gray; } }
+          color: #6c757d; } }

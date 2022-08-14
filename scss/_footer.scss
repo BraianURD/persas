@@ -1,9 +1,12 @@
+//variable
+$color-primario:#6c757d;
+
 footer{
-    Border-top: 2px solid #6c757d;
+    Border-top: 2px solid $color-primario;
     background-color: #fbfbff;
 
     h2{
-        Border-top: 2px solid #6c757d;
+        Border-top: 2px solid $color-primario;
         text-align: center;
         font-size: 20px;
     }
@@ -30,7 +33,7 @@ footer{
         font-size: 20px;
 
         &:hover{
-            color: gray;
+            color: $color-primario;
 
         }
     }
@@ -47,7 +50,7 @@ footer{
             font-size: 20px;
     
             &:hover{
-                color: gray;
+                color:$color-primario;
     
             }
         }
@@ -69,11 +72,11 @@ footer{
     @media screen and (max-width:400px){
 
         footer{
-            Border-top: 2px solid #6c757d;
+            Border-top: 2px solid $color-primario;
             background-color: #f5f3f4;
         
             h2{
-                Border-top: 2px solid #6c757d;
+                Border-top: 2px solid $color-primario;
                 text-align: center;
                 font-size: 10px;
             }   
@@ -91,7 +94,7 @@ footer{
                 font-size: 20px;
         
                 &:hover{
-                    color: gray;
+                    color: $color-primario;
         
                 }
             }
@@ -108,7 +111,7 @@ footer{
                     font-size: 20px;
             
                     &:hover{
-                        color: gray;
+                        color: $color-primario;
             
                     }
                 }
