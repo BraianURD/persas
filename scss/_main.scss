@@ -111,13 +111,13 @@ main{
 
     .biografia::first-letter{
         font-size: 2rem;    
-        font-family: 'Times New Roman', Times, serif;
+        @include letra;
         color: #6c757d;
     }
     .biografia{
         margin: 10%;
         font-size: 1rem;    
-        font-family: 'Times New Roman', Times, serif;
+        @include letra;
         color: #6c757d;
     }
 
@@ -148,13 +148,13 @@ main{
 
     .biografia::first-letter{
         font-size: 2rem;    
-        font-family: 'Times New Roman', Times, serif;
+        @include letra;
         color: #6c757d;
     }
     .biografia{
         margin: 10%;
         font-size: 1rem;    
-        font-family: 'Times New Roman', Times, serif;
+        @include letra;
         color: #6c757d;
     }
 
