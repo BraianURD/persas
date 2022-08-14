@@ -85,13 +85,13 @@ main {
     font-family: 'Times New Roman', Times, serif;
     color: #6c757d; }
   .biografia {
-    margin: 8%;
+    margin: 10%;
     font-size: 1rem;
     font-family: 'Times New Roman', Times, serif;
     color: #6c757d; }
   .left {
     float: left;
-    width: 18%; } }
+    width: 15%; } }
 
 @media screen and (max-width: 1750px) and (max-width: 800px) {
   body {
